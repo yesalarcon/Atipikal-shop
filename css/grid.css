@@ -1,0 +1,82 @@
+.container{
+  max-width: 1024px;
+  margin:auto;
+  padding: 30px;
+}
+
+.row{
+  display: flex;
+}
+
+.col-1{
+  width: 8.333333333333333%;
+}
+.col-2{
+  width: 16.66666666666667%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.33333333333333‬%;
+}
+.col-5{
+  width: 41.66666666666667‬%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.33333333333333%;
+}
+.col-8{
+  width: 66.66666666666667%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.33333333333333‬%;
+}
+.col-11{
+  width: 91.66666666666667%;
+}
+.col-12{
+  width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .row{
+    display: inherit;
+  }
+ .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+  width: 100%;
+  }
+}
+
+h1{
+  font-family: pacifico;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.images_product{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 60px;
+}
+
+strong{
+  font-family: Comfortaa;
+  font-size: 30px;
+}
+
+.col-8{
+  margin: 0px 0px 0px 90px;
+  font-family: pacifico;
+  font-size: 30px;
+}
